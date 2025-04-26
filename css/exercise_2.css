@@ -1,0 +1,81 @@
+/* Add your CSS style definitions to this file */
+:root{
+    --background_color: #f9f9f9;
+    --font_fraction: 2.9/2;
+    background-color: var(--background_color);
+}
+
+body{
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+    background-color: #ffffff;
+}
+
+.hero{
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: calc(var(--font_fraction) * 2rem);
+    font-weight: 700;
+    color: #9f2042;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0em;
+}
+
+#details{
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(var(--font_fraction) * 1.25rem);
+    color: #a9a9ba;
+    text-align: center;
+    margin-top: 0em;
+}
+
+p{
+    padding: 0em 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(var(--font_fraction) * 1rem);
+    line-height: 1.5;
+}
+
+blockquote{
+    font-family: 'Roboto Slab', serif;
+    font-size: calc(var(--font_fraction) * 1.25rem);
+    border: 1px solid #ececec;
+    padding: 1em 2em;
+    margin: 0em 4em;
+    background-color: var(--background_color);
+}
+
+a{
+    color: #ec8295;
+    font-size: calc(var(--font_fraction) * 1rem);
+}
+
+#buttons{
+    padding: 0em 3em;
+}
+
+#buttons a{
+    border: 1px solid #ececec;
+    padding: 0.5em 1em;
+}
+
+#buttons a:hover{
+    background-color: #a9a9ba;
+    color: #9f2042;
+}
+
+footer{
+    background-color: #29293a;
+    margin-top: 2em;
+    padding: 1em 0em;
+}
+
+footer p{
+    color: #ffffff;
+}
