@@ -1,0 +1,124 @@
+
+* {
+   box-sizing: border-box;
+}
+
+body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+   background-color: #F0F4F8;
+   font-weight: 300;
+}
+
+/* add styles here */
+
+:root{
+   --navigation-color: #51279B;
+}
+
+header{
+   background-image: url(../images/exercise_3/florence.jpg);
+   background-size: cover;
+   width: 100%;
+   min-width: 500px;
+   height: 100vh;
+}
+
+/*#topbar{
+   background-image: url(../images/exercise_3/logo.png);
+}*/
+
+#topbar{
+   height: 6rem;
+   padding: 2rem 9rem;
+   background-image: url(../images/exercise_3/logo.png);
+   background-size: 6rem;
+   background-repeat:no-repeat;
+}
+
+#topbar li{
+   display: inline-block;
+   margin-right: 2em;
+}
+
+#topbar li a{
+   color: var(--navigation-color);
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.4rem;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+header div{
+   margin-top:15vh;
+   margin-left: 9rem;
+}
+
+header div h2{
+   font-size: 3.85rem;
+   font-weight: 700;
+   color: #ffffff;
+}
+
+header div p{
+   padding-top: 1.5rem;
+   font-size: 1.9rem;
+   font-weight: 500;
+   color: #ffffff;
+   margin-bottom: 2rem;
+}
+
+header div a{
+   background-color: var(--navigation-color);
+   font-size: 1.2rem;
+   padding: 1rem 2rem;
+   color: #ffffff;
+   text-decoration: none;
+}
+
+main {
+   margin: 1rem;
+}
+
+.card{
+   display: inline-block;
+   width: 33%;
+}
+
+.card img{
+   width: 100%;
+}
+
+h3{
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+
+.description{
+   font-size: 1rem;
+   font-weight: 300;
+}
+
+.social{
+   font-size: 1rem;
+   font-weight: 200;
+}
+
+span{
+   background-repeat: no-repeat;
+   background-size: 1.5rem;
+   padding-left: 1.75rem;
+}
+
+.heart{
+   margin: 0rem 1rem 0rem 0.2rem;
+   background-image: url(../images/exercise_3/heart.png);
+}
+
+.comment{
+   background-image: url(../images/exercise_3/comment.png);
+}
