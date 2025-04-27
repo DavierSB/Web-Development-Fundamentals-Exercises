@@ -1,4 +1,3 @@
-
 * {
    box-sizing: border-box;
 }
@@ -21,7 +20,7 @@ body {
 }
 
 header{
-   background-image: url(../images/exercise_3/florence.jpg);
+   background-image: url(../images/ch4-proj3/florence.jpg);
    background-size: cover;
    width: 100%;
    min-width: 500px;
@@ -29,13 +28,13 @@ header{
 }
 
 /*#topbar{
-   background-image: url(../images/exercise_3/logo.png);
+   background-image: url(../images/ch4-proj3/logo.png);
 }*/
 
 #topbar{
    height: 6rem;
    padding: 2rem 9rem;
-   background-image: url(../images/exercise_3/logo.png);
+   background-image: url(../images/ch4-proj3/logo.png);
    background-size: 6rem;
    background-repeat:no-repeat;
 }
@@ -116,9 +115,9 @@ span{
 
 .heart{
    margin: 0rem 1rem 0rem 0.2rem;
-   background-image: url(../images/exercise_3/heart.png);
+   background-image: url(../images/ch4-proj3/heart.png);
 }
 
 .comment{
-   background-image: url(../images/exercise_3/comment.png);
+   background-image: url(../images/ch4-proj3/comment.png);
 }
