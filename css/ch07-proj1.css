@@ -42,8 +42,7 @@ button {
 .card {
 	background: white;
 	margin-bottom: 2em;	
-    padding: 0;
-   
+    padding: 0;  
 }
 .card-content p {
 	padding: 0.5em 1.4em 0 1.4em;
@@ -51,17 +50,73 @@ button {
 }
 .card-actions {
 	padding: 0.5em 1.4em;
-	font-size: var(--card-font-size);      
+	font-size: var(--card-font-size);
+    opacity: 0;
 }
 
 
 
 /* add your styles here */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.container section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.card{
+    display: flex;
+    width: 24%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
 
+.card img{
+    max-width: 100%;
+}
+
+.card img:hover{
+    filter: saturate(1.5);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover .card-actions {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
 
 /* styles for mobile protrait screen */
+@media (max-width: 480px) {
+    :root {
+        --header-font-size: 24px;
+        --header-height: 4em;
+        --card-font-size: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
 
 
 /* styles for tablet portrait and mobile landscape screens */
+@media (max-width: 768px) and (min-width: 480px) {
+    :root {
+        --card-font-size: 100%;
+    }
+
+    .card{
+        width: 45%;
+    }
+}

@@ -121,3 +121,51 @@ span{
 .comment{
    background-image: url(../images/ch4-proj3/comment.png);
 }
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+   header {
+      min-width: auto;
+      height: auto;
+      min-height: 100vh;
+   }
+
+   #topbar {
+      height: auto;
+      padding: 1rem;
+      background-size: 4rem;
+   }
+
+   #topbar ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+   }
+
+   #topbar li {
+      margin-right: 0;
+   }
+
+   #topbar li a {
+      font-size: 1rem;
+   }
+
+   header div {
+      margin: 2rem 1rem;
+      text-align: center;
+   }
+
+   header div h2 {
+      font-size: 2rem;
+   }
+
+   header div p {
+      font-size: 1.2rem;
+   }
+
+   .card {
+      width: 100%;
+      margin-bottom: 1rem;
+   }
+}
